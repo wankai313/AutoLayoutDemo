@@ -5,39 +5,6 @@
     android:layout_height="match_parent"
     android:orientation="vertical" >
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:background="#ff00ff" >
-    </LinearLayout>
-
-    <com.zhy.autolayout.AutoRelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="100px"
-        android:orientation="horizontal" >
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_centerVertical="true"
-            android:layout_marginLeft="10px"
-            android:padding="10px"
-            android:text="返回"
-            android:textSize="26px" />
-
-        <ImageView
-            android:layout_width="56px"
-            android:layout_height="56px"
-            android:layout_alignParentRight="true"
-            android:layout_centerVertical="true"
-            android:layout_marginRight="10px"
-            android:padding="10px"
-            android:src="@drawable/ic_launcher" />
-    </com.zhy.autolayout.AutoRelativeLayout>
-
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="1px"
-        android:background="#bcbcbc" />
+    <include layout="@layout/layout_default_title" />
 
 </com.zhy.autolayout.AutoLinearLayout>
