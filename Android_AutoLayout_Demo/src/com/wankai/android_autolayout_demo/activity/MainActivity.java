@@ -15,8 +15,6 @@ import android.view.View.OnClickListener;
 public class MainActivity extends BaseActivity implements OnClickListener, MainView {
 
 	private TitleViewHorlder tvh;
-
-	
 	private MainPresener mainPresener;
 
 	@Override
