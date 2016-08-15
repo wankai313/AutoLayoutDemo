@@ -16,6 +16,7 @@ public class MainActivity extends BaseActivity implements OnClickListener, MainV
 
 	private TitleViewHorlder tvh;
 
+	
 	private MainPresener mainPresener;
 
 	@Override
